@@ -75,14 +75,14 @@ resources:
 #- argocd/instances/ibm-paw.yaml
 
 # B2BI
-- argocd/instances/ibm-sfg-db2-prod.yaml
-- argocd/instances/ibm-sfg-mq-prod.yaml
-- argocd/instances/ibm-sfg-b2bi-prod-setup.yaml
-- argocd/instances/ibm-sfg-b2bi-prod.yaml
-- argocd/instances/ibm-sfg-db2-nonprod.yaml
-- argocd/instances/ibm-sfg-mq-nonprod.yaml
-- argocd/instances/ibm-sfg-b2bi-nonprod-setup.yaml
-- argocd/instances/ibm-sfg-b2bi-nonprod.yaml
+#- argocd/instances/ibm-sfg-db2-prod.yaml
+#- argocd/instances/ibm-sfg-mq-prod.yaml
+#- argocd/instances/ibm-sfg-b2bi-prod-setup.yaml
+#- argocd/instances/ibm-sfg-b2bi-prod.yaml
+#- argocd/instances/ibm-sfg-db2-nonprod.yaml
+#- argocd/instances/ibm-sfg-mq-nonprod.yaml
+#- argocd/instances/ibm-sfg-b2bi-nonprod-setup.yaml
+#- argocd/instances/ibm-sfg-b2bi-nonprod.yaml
 
 # Sterling Secure Proxy
 #- argocd/instances/sterling-secure-proxy-setup.yaml
@@ -90,10 +90,10 @@ resources:
 #- argocd/instances/sterling-secure-proxy-engine-instance.yaml
 
 # PEM
-- argocd/instances/ibm-pem-db2.yaml
-- argocd/instances/ibm-pem-db2test.yaml
-- argocd/instances/ibm-pem-setup.yaml
-- argocd/instances/ibm-pem.yaml
+#- argocd/instances/ibm-pem-db2.yaml
+#- argocd/instances/ibm-pem-db2test.yaml
+#- argocd/instances/ibm-pem-setup.yaml
+#- argocd/instances/ibm-pem.yaml
 
 # SCCM
 #- argocd/instances/ibm-sccm-db2.yaml
@@ -107,7 +107,7 @@ resources:
 #- argocd/instances/cert-manager-instance.yaml
 
 # Sealed Secrets
-- argocd/instances/sealed-secrets.yaml
+#- argocd/instances/sealed-secrets.yaml
 
 # CICD
 #- argocd/operators/grafana-operator.yaml
